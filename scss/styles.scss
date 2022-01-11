@@ -1,6 +1,16 @@
 @import "config/variables";
 
 @import "base/base";
-@import "base/typography";
 
 @import "components/btn";
+@import "components/icons";
+@import "components/fonts";
+@import "components/search";
+
+@import "layout/grid";
+
+@import "pages/home";
+
+body {
+  background-color: var(--gray20);
+}
