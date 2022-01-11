@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 0.25em;
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: inherit;
+  text-align: center;
+  user-select: none;
+
+  &-primary {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  &-big {
+    line-height: 1.6;
+  }
+
+  &:hover:is([class*="btn"]) {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.99);
+  }
+}
