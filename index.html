@@ -4,44 +4,204 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="grid">
-      <header>
+      <header class="main-header">
         <div class="wrapper">
-          <div class="content">
-            Linio
+          <div class="main-header-content">
+            <div class="logo">
+              <a href="/" aria-current="page">
+                <img class="logo__image" src="./images/logo-udemy.svg" alt="">
+              </a>
+            </div>
+
+            <form
+              action="#"
+              class="search"
+              role="text"
+              aria-label="Buscar por Artistas, canciones o podcast"
+            >
+              <i class="icon-search" aria-hidden="true"></i>
+              <input
+                class="search__input"
+                type="search"
+                placeholder="Nombre de usuario"
+                name="usuario"
+                id="usuario"
+              />
+              <!-- <button type="submit">Enviar</button> -->
+            </form>
+
+            <nav>
+              <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Productos</a></li>
+                <li><a href="/">Servicios</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
 
-      <div class="body wrapper">
-        <main>
-          <article>
-            <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
-              <i class="icon-search" aria-hidden="true"></i>
-              <input class="search__input" type="search" placeholder="Buscar por Artistas, canciones o podcast" />
-            </form>
-          </article>
-          <h1>Titular</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            delectus architecto sunt sed est iste nobis ea, labore ratione
-            laboriosam cum hic id reprehenderit. Cumque, obcaecati. Alias vero
-            est voluptas.
-          </p>
-        </main>
+      <div class="modal" id="modal">
+        <div class="content">
+          <h2>Modal</h2>
+          <p>Lorem ipsum dolor sit.</p>
+          <button id="close-modal">cerrar modal</button>
+        </div>
       </div>
 
-      <footer>
+      <main class="main">
+        <section class="products l-big-section">
+          <h2 class="l-section" style="text-align: center">
+            Bienvenido a los Productos
+          </h2>
+          <div class="wrapper">
+            <button id="open-modal">abrir modal</button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              exercitationem praesentium eaque ipsa, ad quasi repellendus
+              nostrum ipsam cupiditate, suscipit temporibus repellat
+              voluptatibus tempora officia nesciunt rem inventore libero
+              similique.
+            </p>
+          </div>
+        </section>
+
+        <section class="services l-big-section">
+          <h2 class="l-section" style="text-align: center">
+            Bienvenidos a los Servicios
+          </h2>
+          <div class="wrapper">
+            <div class="group-image">
+              <img
+                src="https://fandomwire.com/wp-content/uploads/2020/05/hhh.jpg"
+                alt=""
+              />
+              <img
+                src="https://fandomwire.com/wp-content/uploads/2020/05/hhh.jpg"
+                alt=""
+              />
+              <img
+                src="https://fandomwire.com/wp-content/uploads/2020/05/hhh.jpg"
+                alt=""
+              />
+              <img
+                src="https://fandomwire.com/wp-content/uploads/2020/05/hhh.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="features l-big-section">
+          <h2 class="l-section" style="text-align: center">
+            Bienvenidos a las características
+          </h2>
+          <div class="wrapper">
+            <div class="dropzone-initial l-section">
+              <div
+                id="draggable"
+                draggable="true"
+                ondragstart="event.dataTransfer.setData('text/plain', null)"
+              >
+                This is draggable
+              </div>
+            </div>
+            <div class="group-dropzone">
+              <div class="dropzone"></div>
+              <div class="dropzone"></div>
+              <div class="dropzone"></div>
+              <div class="dropzone"></div>
+              <div class="dropzone"></div>
+              <div class="dropzone"></div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="main-footer">
         <div class="wrapper">
-          <div class="content">
-            <p>Footer</p>
+          <div class="main-footer-content">
+            <span>copyright kuato | 2022</span>
           </div>
         </div>
       </footer>
     </div>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>

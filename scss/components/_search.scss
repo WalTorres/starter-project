@@ -1,40 +1,44 @@
+
+
+/*Componente Formulario*/
 .search {
+  /* margin-top: 2rem; */
   position: relative;
-
-  .icon-search {
-    position: absolute;
-    font-size: 1.6rem;
-    left: .8rem;
-    top: calc(50% - .8rem);//se centra respecta a su contexto(search) - proporcional
-    height: 1.6rem;
-    color: var(--gray10);
-  }
-
-    &:focus-within .icon-search {
-    color: var(--gray30);
-  }
-
-  &__input {
-    padding-left: 50px;
-    border-radius: 2rem;
-    border: none;
-    max-width: 35.2rem;
-    width: 100%;
-    padding: .8rem;
-    padding-left: 3.2rem;
-    font: var(--base-font);
-    color: var(--gray30);
-    outline: none;
-  }
-
-  &__input:focus {
-    border-color: #86b7fe;
-    outline: 0;
-    box-shadow: 0 0 0 0.4rem rgba(13, 110, 253, 0.25);
-  }
+  /* z-index: -1; */
+  flex: 1;
+  // margin-right: 0;
+  // margin-left: auto;
+  // display: block;
+}
 
 
-  &__input::-webkit-input-placeholder {
-    color: var(--gray10);
-  }
+.search i {
+  position: absolute;
+  font-size: 1.6rem;
+  left: 0.8rem;
+  top: calc(50% - 0.8rem);
+  height: 1.6rem;
+  color: rgb(179, 179, 179);
+}
+.search:focus-within i {
+  color: rgb(77, 77, 77);
+}
+.search__input {
+  border-radius: 2rem;
+  border: 1px solid rgb(172, 172, 172);
+  max-width: 35.2rem;
+  width: 100%;
+  padding: 0.8rem;
+  padding-left: 3.2rem;
+  font: var( --base-font);
+  color: rgb(77, 77, 77);
+  outline: none;
+}
+.search__input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+.search__input::-webkit-input-placeholder {
+  color: rgb(179, 179, 179);
 }
