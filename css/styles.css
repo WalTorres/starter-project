@@ -21,6 +21,7 @@
   --header-height: 5rem;
   --header-margin: 2rem;
   --columns: 1;
+  --show-element: none;
 }
 
 @media (min-width: 1024px) {
@@ -36,6 +37,7 @@
     --header-height: 7rem;
     --header-margin: 3rem;
     --columns: 4;
+    --show-element: block;
   }
 }
 body {
@@ -221,6 +223,7 @@ select {
   position: relative;
   /* z-index: -1; */
   flex: 1;
+  display: var(--show-element);
 }
 
 .search i {
@@ -335,22 +338,25 @@ select {
 }
 .main-header-content {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: var(--header-height);
 }
 
-.products-content {
+.products__content {
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
-  gap: 2rem;
 }
-.products-grid {
+.products__grid {
   grid-column-start: span 3;
 }
-.products-aside {
+.products__aside {
   background-color: orangered;
   padding: 2rem;
+  color: white;
+}
+.products__paragraph {
+  display: var(--show-element);
 }
 
 /* Seccion servicios */
