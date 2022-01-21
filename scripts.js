@@ -1,15 +1,15 @@
-const abrir = document.getElementById("open-modal")
-const cerrar = document.getElementById("close-modal")
-const modal = document.getElementById("modal")
+// const abrir = document.getElementById("open-modal")
+// const cerrar = document.getElementById("close-modal")
+// const modal = document.getElementById("modal")
 
-const toggleActiveModal = () => modal.classList.toggle("active")
+// const toggleActiveModal = () => modal.classList.toggle("active")
 
-// function toggleActiveModal() {
-//   modal.classList.toggle("active")
-// }
+// // function toggleActiveModal() {
+// //   modal.classList.toggle("active")
+// // }
 
-cerrar.addEventListener("click", toggleActiveModal)
-abrir.addEventListener("click", toggleActiveModal)
+// cerrar.addEventListener("click", toggleActiveModal)
+// abrir.addEventListener("click", toggleActiveModal)
 
 
 // Dragger

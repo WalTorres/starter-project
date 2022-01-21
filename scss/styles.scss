@@ -8,11 +8,13 @@
 @import "components/fonts";
 @import "components/search";
 @import "components/navigation";
+@import "components/card";
 
 @import "layout/grid";
 @import "layout/header";
 @import "layout/products";
 @import "layout/services";
+@import "layout/courses";
 
 @import "pages/home";
 
@@ -69,12 +71,13 @@
 
 /* Seccion features */
 .dropzone-initial {
+
   display: flex;
   justify-content: center;
 }
 
 #draggable {
-  width: 380px;
+  width: 200px;
   height: 60px;
   color: white;
   display: flex;
@@ -84,6 +87,7 @@
   background-color: blueviolet;
   border-radius: 8px;
   margin: 1rem;
+  padding: 4rem;
 
 }
 

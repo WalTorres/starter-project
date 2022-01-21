@@ -8,12 +8,14 @@
 
   &__grid {
     grid-column-start: span 3;
+    border: 1px solid red;
   }
 
   &__aside {
     background-color: orangered;
     padding: 2rem;
     color: white;
+
   }
 
   &__paragraph {

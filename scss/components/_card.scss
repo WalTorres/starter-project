@@ -1,0 +1,48 @@
+.card {
+  overflow: hidden;
+  border-radius: .8rem;
+  max-width: 30rem;
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 4px rgba(174,190,205,.3);
+  // color: var(--text-color);
+
+  &__header {
+    position: relative;
+  }
+
+  &__image {
+
+  }
+
+  &__level {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    font-weight: bold;
+  }
+
+  &__content {
+    padding: 1.6rem;
+  }
+
+  &__title {
+    margin-bottom: .8rem;
+    color: var(--title-color);
+    font-size: var(--base-font-bold);
+  }
+
+  &__paragraph {
+    color: var(--text-color)
+  }
+
+  &__footer {
+    padding: 1.2rem 1.6rem;
+    background-color: #f7f7f7;
+    color: var(--text-color);
+  }
+
+  &__footer-title {
+    margin: 0;
+  }
+
+}

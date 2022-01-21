@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
   // font-size: 40px;
+
   //Colors
   --primary: #00b050;
   --white: #ffffff;
@@ -10,6 +11,13 @@
   --gray40: #181818;
   --gray50: #121212;
   --gray60: #000000;
+  --body-bg: #ecf0f3;
+
+  //Card
+  --card-bg: #fff;
+  --title-color: #273b49;
+  --text-color: #687782;
+
 
   //Fonts
   --heading-font: sans-serif;
@@ -53,15 +61,4 @@
     --columns: 4;
     --show-element: block;
   }
-}
-
-body {
-  font: var(--base-font);
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font: var(--head-line-1);
 }
