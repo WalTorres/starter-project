@@ -1,0 +1,19 @@
+.products {
+
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 2rem;
+  }
+
+  &-grid {
+    grid-column-start: span 3;
+  }
+
+  &-aside {
+    background-color: orangered;
+    padding: 2rem;
+
+  }
+}

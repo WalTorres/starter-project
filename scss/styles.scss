@@ -11,6 +11,8 @@
 
 @import "layout/grid";
 @import "layout/header";
+@import "layout/products";
+@import "layout/services";
 
 @import "pages/home";
 
@@ -61,19 +63,7 @@
   font-weight: bold;
 }
 
-/* Seccion productos */
-.products {
-  /* margin-top: 4rem; */
-}
 
-
-
-/* Seccion servicios */
-.group-image {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-}
 
 
 

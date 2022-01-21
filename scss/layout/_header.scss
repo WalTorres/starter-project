@@ -1,9 +1,9 @@
 .main-header {
-  // position: fixed;
-  // top: 0;
-  // width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
+  // position: sticky;
+  // top: 0;
   // backdrop-filter: blur(5px);
   background-color: orangered;
 }
@@ -21,6 +21,7 @@
   align-items: center;
   // padding-left:2.4rem;
   // padding-right:2.4rem;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  // padding-top: 1.6rem;
+  // padding-bottom: 1.6rem;
+  height: var(--header-height);
 }
